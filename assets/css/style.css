@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(60.94deg, #ED8727 15.8%, #FFFFFF 69.41%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 24px;
+    height: 90px;
+}
+
+.cabecalho-imagem {
+    height: 50px;
+    width: 50px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-size: 18px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.cabecalho-menu-item:hover {
+    color: #ED8727;
+    background-color: rgba(236, 214, 196, 0.53);
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid black;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-titulo {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.conteudo-principal-subtitulo {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.conteudo-principal-botao {
+    background-color: #ECD6C4;
+    width: 150px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2F2325;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+    transition: 1s;
+}
+
+.conteudo-principal-imagem {
+    height: 330px;
+    width: 330px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid black;
+    padding-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    font-size: 20px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid black;
+    padding-top: 48px;
+}
+
+.rodape-imagem {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
