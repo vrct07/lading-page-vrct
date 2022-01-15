@@ -8,7 +8,7 @@
 }
 
 body {
-    background: linear-gradient(60.94deg, #ED8727 15.8%, #FFFFFF 69.41%);
+    background: linear-gradient(60.94deg, #e9ab71 15.8%, #e9d1bb 69.41%);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -33,23 +33,25 @@ body {
 
 .cabecalho-menu-item {
     font-size: 18px;
-    color: black;
+    color: #1B1A19;
     border: none;
     border-radius: 20px;
     padding: 10px;
 }
 
 .cabecalho-menu-item:hover {
-    color: #ED8727;
-    background-color: rgba(236, 214, 196, 0.53);
+    color: #ffffff;
+    background-color: rgba(153, 151, 149, 0.53);
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 18px;
+    transition: 0.5s;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.041);
 }
 
 .conteudo {
     margin-bottom: 48px;
-    border-top: 0.4px solid black;
+    border-top: 0.4px solid #1B1A19;
 }
 
 .conteudo-principal {
@@ -80,7 +82,7 @@ body {
     width: 150px;
     height: 50px;
     border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.164);
     border-radius: 20px;
     font-size: 20px;
     font-weight: 500;
@@ -88,14 +90,26 @@ body {
 }
 
 .conteudo-principal-botao:hover {
-    background-color: rgba(236, 214, 196, 0.53);
-    transition: 1s;
+    background-color: rgba(180, 169, 161, 0.53);
+    transition: 0.5s;
+    color: white;
 }
 
 .conteudo-principal-imagem {
     height: 330px;
     width: 330px;
+    animation-name: movimento;
+    animation-duration: 2.4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: relative;
+    animation-timing-function: linear;
 }
+
+@keyframes movimento {
+    from {top:0;}
+    to {top: -30px;}
+  }
 
 .conteudo-secundario {
     display: flex;
@@ -106,7 +120,7 @@ body {
 }
 
 .conteudo-secundario-titulo {
-    border-top: 0.4px solid black;
+    border-top: 0.4px solid #1B1A19;
     padding-top: 48px;
 }
 
@@ -115,13 +129,13 @@ body {
 }
 
 .conteudo-secundario-paragrafo {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .rodape {
-    padding: 32px;
-    border-top: 0.4px solid black;
+    padding: 30px;
+    border-top: 0.4px solid #1B1A19;
     padding-top: 48px;
 }
 
